@@ -1,0 +1,216 @@
+/*Global */
+html {
+	font-size:62.5%;
+}
+@font-face {
+	font-family: Bodega Sans;
+	src : url("../fonts/BodegaSans_Black.ttf");
+/*			url("/font/FontAwesome.otf"),
+			url("/fonts/fontawesome-webfont.eot"),
+			url("/fonts/fontawesome-webfont.svg"),
+			url("/fonts/fontawesome-webfont.ttf"),
+			url("/fonts/fontawesome-webfont.woff2") format("woff2"));*/
+}
+* {
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	outline:none;
+}
+body {
+	background-image:url("../img/bg_body.svg");
+	background-color: #444444;
+	text-align:center;
+	margin:2em auto;
+	max-width: 80%;
+	font-family:sans-serif;
+	color:white;
+}
+h1,h2,h3 {
+	font-family: Bodega Sans;
+	text-transform:uppercase;
+}
+h1 {
+	font-size:4rem;
+	padding: 1em;
+	line-height: 50px;
+}
+h2 {
+	font-size: 3rem;
+	box-shadow:-3px -3px #363738;
+	padding:1em;
+	line-height: 2em;
+	text-align: left;
+	margin-top: 2em;
+}
+h3 {
+	font-size:2.5rem; 
+}
+span {
+	color:#ff9d00;
+}
+
+/* Mobile version */
+
+/*Header*/
+
+header {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+49,45484d+50,000000+99,333333+99,333333+99&0.2+50,1+50 */
+	background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 49%, rgba(69,72,77,1) 50%, rgba(51,51,51,1) 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 49%,rgba(69,72,77,1) 50%,rgba(51,51,51,1) 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(160deg, rgba(255,255,255,1) 49%,rgba(69,72,77,1) 50%,rgba(51,51,51,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#333333',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	max-width: 100%;
+}
+header img {
+	float:left;
+	width:100%;
+}
+header nav a {
+	display:block;
+	text-decoration: none;
+	color:white;
+	text-align: right;
+	width:100%;
+	font-size:2.5rem;
+	font-family: Bodega Sans;
+	padding : 1em 1em;
+}
+/* Main */
+.flexslider {
+	border:5px solid white;
+	border-radius: 0;
+}
+.BOX h3 {
+	color:#ff9d00;
+	border-bottom:2px solid #ff9d00;
+	padding-bottom: 1em;
+
+}
+.BOX img {
+	max-width: 100%;
+}
+.BOX {
+	background-color: white;
+	display:block;
+	margin:1em auto;
+	padding:2em;
+}
+.BOX p {
+	font-size:1rem;
+	color:#44474c;
+	line-height: 25px;
+	padding:1em 0;
+}
+.BOX a {
+	display:block;
+	width:100%;
+	text-decoration: none;
+	color:white;
+	padding:2em 1em;
+	background-color:#ff9d00;
+}
+section p {
+	line-height: 25px;
+}
+.logo i {
+	display:block;
+	color:white;
+	padding:20px;
+	font-size:5rem;
+}
+video {
+	display:block;
+	max-width: 100%;
+	padding:1em;
+	margin-bottom: 10em;
+}
+footer {
+	display:block;
+	box-shadow:0 0 3px 3px #3d3d3d;
+	padding:3em 1em;
+}
+footer h3 {
+	padding:2em;
+	color:#d0d0d0;
+}
+footer a {
+	text-decoration: none;
+	color:white;
+	text-decoration: underline;
+
+}
+footer div p {
+	line-height: 25px;
+	color:#d0d0d0;
+}
+#licence {
+    display: block;
+    text-align: center;
+    padding: 25px;
+    line-height: 25px;
+}
+
+#licence img {
+    width: 50px;
+}
+/* Tablette */
+
+@media screen and (min-width: 768px) 
+{
+	header {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+49,45484d+50,000000+99,333333+99,333333+99&0.2+50,1+50 */
+	background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 49%, rgba(69,72,77,1) 50%, rgba(51,51,51,1) 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 49%,rgba(69,72,77,1) 50%,rgba(51,51,51,1) 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, rgba(255,255,255,1) 49%,rgba(69,72,77,1) 50%,rgba(51,51,51,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#333333',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */	
+	}
+
+/* Desktop */
+
+@media screen and (min-width: 1025px) {
+	body {
+		margin:0 auto;
+		max-width: 100%;
+	}
+	main {
+	max-width: 1500px;
+	width:90%;
+	margin:0 auto;
+	}
+	header img {
+		float:left;
+		padding:2em;
+		width:300px;
+	}
+	article.BOX {
+		width:23.5%;
+		display:inline-block;
+	}
+	article.BOX + article.BOX {
+		margin-left: 2%;
+	}
+	.logo h2 {
+		margin:0;
+	}
+	.logo i {
+		font-size:3rem;
+		display: inline-block;
+	}
+	#align {
+		display:inline-block;
+		width:50%;
+		vertical-align: top;
+		text-align: left;
+	}
+	video {
+		display:inline-block;
+		width:50%;
+		margin:0 auto;
+		vertical-align: top;
+		padding:0 0 0 1em;
+
+	}
+	article.logo {
+		padding-bottom: 5em;
+	}
+}

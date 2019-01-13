@@ -1,0 +1,48 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin:0 auto;
+    max-width: 90%;
+    background-color: rgb(195, 218, 210);
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+#adminTable {
+    padding: 3em;
+}
+
+img {
+    max-width: 200px;
+    max-height: 100px;
+    border-radius: 50%;
+}
+.newArt {
+    font-family: sans-serif;
+    font-weight : bolder;
+}
+.newArt li {
+    padding: 10px 0;
+}
+.button {
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: rgb(32, 88, 70);
+    padding:16px 10px;
+    color:white;
+}
+
+.comms {
+    background-color:  rgb(32, 88, 70);
+    border-radius: 20%;
+    padding:2em;
+    max-width: 20%;
+    word-break:break-all;
+}
+#comms {
+    border:none;
+}
